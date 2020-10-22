@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/id_tv"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="#4DABDD"
+        android:text="编号"
+        />
+    <EditText
+        android:id="@+id/id_ed"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#4DABDD"
+        android:hint="编号"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/goods_name_tv"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="#4DABDD"
+        android:text="产品名"
+        />
+    <EditText
+        android:id="@+id/goods_name_ed"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#4DABDD"
+        android:hint="产品名"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/amount_tv"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="#4DABDD"
+        android:text="数量"
+        />
+
+    <EditText
+        android:id="@+id/amount_ed"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#4DABDD"
+        android:hint="数量"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/update_bt"
+        android:layout_margin="10dp"
+        android:text="修 改"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#4DABDD"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <Button
+        android:id="@+id/delete_bt"
+        android:layout_margin="10dp"
+        android:text="删 除"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#4DABDD"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">storemanagersystem</string>
+    <string-array name="power">
+        <item>商品管理员</item>
+        <item>出入库员</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/username_tv"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="#5ABC4F"
+        android:text="用户名"
+        />
+    <EditText
+        android:id="@+id/username_ed"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#5ABC4F"
+        android:hint="请输入用户名"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/password_tv"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="#5ABC4F"
+        android:text="密码"
+        />
+    <EditText
+        android:id="@+id/password_ed"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#5ABC4F"
+        android:hint="请输入密码"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/power_tv"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="#5ABC4F"
+        android:text="权限"
+        />
+    <Spinner
+        android:id="@+id/power_sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/power"
+        android:spinnerMode="dropdown"/>
+    <Button
+        android:id="@+id/update_bt"
+        android:layout_margin="10dp"
+        android:text="修 改"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#5ABC4F"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <Button
+        android:id="@+id/delete_bt"
+        android:layout_margin="10dp"
+        android:text="删 除"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#5ABC4F"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+</LinearLayout>

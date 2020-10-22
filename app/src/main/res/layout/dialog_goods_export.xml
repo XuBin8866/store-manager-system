@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/goods_name_ed_dialog"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#4DABDD"
+        android:hint="请输入产品名"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/export_num_ed_dialog"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#4DABDD"
+        android:hint="出库数量"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/export_bt_dialog"
+        android:layout_margin="10dp"
+        android:text="确认出库"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#4DABDD"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+</LinearLayout>
